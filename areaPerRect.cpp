@@ -12,7 +12,7 @@ using std::endl;
 This returns nothing, so it is a void type. */
 void calcAreaPerimeter(float l, float w) {
     cout << "If a rectangle has the dimensions: \n";
-    cout << l << " cm x " << w << "cm \n\n";
+    cout << l << "cm x " << w << "cm \n\n";
     cout << "The area is: " << (l * w) << "cm^2 \n";
     cout << "The perimeter is: " << (2 * (l + w)) << "cm \n";
 }
